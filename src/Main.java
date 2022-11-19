@@ -28,7 +28,7 @@ public class Main {
         Driver petryxa = new DriverD("Petryxa", "D", 5, pazik);
 
         List<Transport> transports = List.of(audi, bmw, kia, granta, kamaz, liaz, karosa, pazik, iveko, tesla);
-
+//k
         System.out.println(vasya);
         System.out.println(petryxa);
         System.out.println(senna);

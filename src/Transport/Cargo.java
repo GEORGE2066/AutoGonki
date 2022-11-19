@@ -55,7 +55,7 @@ public class Cargo extends Transport implements Competing {
                 this.getBrand(),
                 this.getModel());
     }
-
+    //k
     @Override
     public void maxSpeed() {
         System.out.printf(" Автомобиль %s %s двигался с максимальной скоростью 190 км/ч",

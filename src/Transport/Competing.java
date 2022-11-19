@@ -6,4 +6,4 @@ public interface Competing {
     void bestTimeCircle();
 
     void maxSpeed();
-}
+}//k

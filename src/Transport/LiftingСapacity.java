@@ -11,7 +11,7 @@ public enum LiftingСapacity {
         this.from = from;
         this.to = to;
     }
-
+    //k
     public Double getFrom() {
         return from;
     }

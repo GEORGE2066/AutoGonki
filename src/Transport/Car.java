@@ -39,7 +39,7 @@ public class Car extends Transport implements Competing {
     }
 
     @Override
-    public void pitStop() {
+    public void pitStop() {//k
         System.out.printf(" Автомобиль %s %s заезжал на пит-стоп 3 раза ",
                 this.getBrand(),
                 this.getModel());

@@ -11,7 +11,7 @@ public class Sponsor {
         this.name = name;
         this.amout = amout;
     }
-
+    //k
     public String getName() {
         return name;
     }
@@ -33,6 +33,6 @@ class SponsorList {
         if (!listSponsor.add(sponsor)) {
             throw new RuntimeException("Этот спонсор уже есть в списке.");
         }
-        return true;
+        return true;//k
     }
 }
