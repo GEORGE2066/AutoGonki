@@ -4,5 +4,5 @@ import Transport.Transport;
 
 public interface Metods {
     void service();
-    void fixedCar();
+    void fixedCar();//k
 }

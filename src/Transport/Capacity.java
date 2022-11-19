@@ -5,7 +5,7 @@ public enum Capacity {
     SMALL(10,25),
     AVERAGE(40,50),
     LARGE(60,80),
-    ESPECIALLY_LARGE(100,120);
+    ESPECIALLY_LARGE(100,120);//k
 
     private final int from;
     private final int to;

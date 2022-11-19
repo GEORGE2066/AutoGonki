@@ -85,7 +85,7 @@ public abstract class Transport {
     class SponsorList {
 
         Set<Transport> listTransport = new HashSet<>();
-
+        //k
         public boolean addProduct(Transport transport) {
             if (!listTransport.add(transport)) {
                 throw new RuntimeException("Этот спонсор уже есть в списке.");

@@ -35,7 +35,7 @@ public class Bus extends Transport implements Competing {
 
     @Override
     public boolean service() {
-        System.out.println("dfdsg" + getBrand() + " " + getModel());
+        System.out.println("dfdsg" + getBrand() + " " + getModel());//k
         return true;
     }
 

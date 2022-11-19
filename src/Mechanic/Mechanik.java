@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class Mechanik <T extends Transport> {
     private final String name;
-    private final String surname;
+    private final String surname;//k
     private final String company;
 
     public Mechanik(String name, String surname, String company) {
@@ -44,6 +44,6 @@ class MechanikList {
         if (!listMechanic.add(mechanik)) {
             throw new RuntimeException("Этот Механик уже есть в списке.");
         }
-        return true;
+        return true;//k
     }
 }
